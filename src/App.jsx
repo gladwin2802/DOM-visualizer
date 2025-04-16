@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import CodeInput from './components/CodeInput';
 import DomTree from './components/DomTree';
-import parseHtmlToTree from './utils/ParsehtmlTotree';
+import parseHtmlToTree from './utils/ParseHtmlTotree';
 function App() {
   const [tree, setTree] = useState(null);
   const handleParse = (code) => {
