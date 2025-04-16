@@ -61,6 +61,3 @@ export default function parseHtmlToTree(htmlString){
 
        return root.children[0]; // Return the actual parsed HTML root node
        };
-
-
-     
